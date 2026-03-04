@@ -63,3 +63,14 @@ pip install -r requirements.txt
   - `Ablation experiment-Onlytime(CuP+TPH).ipynb`  
   - `Ablation experiment-Onlytime(FP+CAF).ipynb`  
 - **Description:** Ablation studies comparing time-only, frequency-only, and time–frequency fusion.
+
+## Data
+
+The `data/` folder contains the complete CuP and CuP+CAF datasets. 
+Other datasets are not included in this repository due to file size limitations.
+
+## Authors
+
+- Ziyang Wang 
+- Saisai Yuan
+- Zhichao Pan 
