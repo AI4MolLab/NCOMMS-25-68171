@@ -4,7 +4,7 @@ Single-molecule sensing by deep-learning-decoded intermolecular interactions ena
 ## Dependencies
 
 - Python: **3.8.18**
-- Required packages (pinned):
+- Required packages:
 
   - numpy==1.23.5  
   - pandas==2.0.3  
@@ -19,3 +19,47 @@ Install via:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Code / Notebooks
+
+### Data Preprocessing
+- **File:** `Data-Preprocesing.ipynb`  
+- **Description:** Data preprocessing pipeline for deep learning experiments.
+
+### Benchmark Method
+- **File:** `SpectrumClustering.ipynb`  
+- **Description:** Spectral clustering analysis as a benchmark method.
+
+### Deep Learning Classifiers
+- **Files:**  
+  - `Classifier(CuP+CAF).ipynb`  
+  - `Classifier(CuP+PTX).ipynb`  
+  - `Classifier(CuP+TPH).ipynb`  
+  - `Classifier(FP+CAF).ipynb`  
+- **Description:** Training and evaluation of deep learning classifiers for different datasets/mixtures.
+
+### Supplementary Experiments
+- **Files:**  
+  - `G0-shift robustness experiment.ipynb`  
+  - `Occlusion Sensitivity Analysis.ipynb`  
+  - `Random background truncation experiment.ipynb`  
+- **Description:** Robustness and interpretability experiments (G0-shift, occlusion sensitivity, and random truncation).
+
+### Ablation Experiments
+- **Files (Time + Frequency):**  
+  - `Ablation experiment-both(CuP+CAF).ipynb`  
+  - `Ablation experiment-both(CuP+PTX).ipynb`  
+  - `Ablation experiment-both(CuP+TPH).ipynb`  
+  - `Ablation experiment-both(FP+CAF).ipynb`  
+- **Files (Frequency only):**  
+  - `Ablation experiment-Onlyfreq(CuP+CAF).ipynb`  
+  - `Ablation experiment-Onlyfreq(CuP+PTX).ipynb`  
+  - `Ablation experiment-Onlyfreq(CuP+TPH).ipynb`  
+  - `Ablation experiment-Onlyfreq(FP+CAF).ipynb`  
+- **Files (Time only):**  
+  - `Ablation experiment-Onlytime(CuP+CAF).ipynb`  
+  - `Ablation experiment-Onlytime(CuP+PTX).ipynb`  
+  - `Ablation experiment-Onlytime(CuP+TPH).ipynb`  
+  - `Ablation experiment-Onlytime(FP+CAF).ipynb`  
+- **Description:** Ablation studies comparing input modalities: time-domain only, frequency-domain only, and both.
