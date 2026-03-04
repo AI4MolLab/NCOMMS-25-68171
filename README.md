@@ -37,7 +37,7 @@ pip install -r requirements.txt
   - `Classifier(CuP+PTX).ipynb`  
   - `Classifier(CuP+TPH).ipynb`  
   - `Classifier(FP+CAF).ipynb`  
-- **Description:** Training and evaluation of deep learning classifiers for different datasets/mixtures.
+- **Description:** Training and evaluating deep learning classifiers, and presenting the results.
 
 ### Supplementary Experiments
 - **Files:**  
@@ -62,4 +62,4 @@ pip install -r requirements.txt
   - `Ablation experiment-Onlytime(CuP+PTX).ipynb`  
   - `Ablation experiment-Onlytime(CuP+TPH).ipynb`  
   - `Ablation experiment-Onlytime(FP+CAF).ipynb`  
-- **Description:** Ablation studies comparing input modalities: time-domain only, frequency-domain only, and both.
+- **Description:** Ablation studies comparing time-only, frequency-only, and time–frequency fusion.
