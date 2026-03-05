@@ -72,5 +72,5 @@ Other datasets are not included in this repository due to file size limitations.
 ## Authors
 
 - Ziyang Wang 
-- Saisai Yuan
-- Zhichao Pan 
+- Saisai Yuan,`email(yuansaisai@just.edu.cn)`
+- Zhichao Pan,`email(panzhichao@guet.edu.cn)` 
