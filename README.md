@@ -1,6 +1,15 @@
 # NCOMMS-25-68171
 Single-molecule sensing by deep-learning-decoded intermolecular interactions enabling sub-attomolar, second-scale detection
 
+## Overview
+We present a single-molecule sensing strategy that integrates rationally designed **porphyrin-based probes** with a **Time-Frequency Deep Learning framework**. By analyzing Scanning Tunneling Microscope Break Junction (STM-BJ) data, this approach overcomes the limitations of conventional clustering and achieves:
+
+- **Ultrasensitive Detection:** Limit of Detection (LOD) down to **$10^{-18}$ mol/L (sub-attomolar)**.
+- **Universality:** Validated on Caffeine, Theophylline, and other structural analogs.
+- **Rapid Response:** Reliable classification within seconds.
+
+This repository provides the complete pipeline for data preprocessing, feature extraction (Time-Domain & Frequency-Domain), model training, and result visualization.
+
 ## Dependencies
 
 - Python: **3.8.18**
@@ -69,8 +78,8 @@ pip install -r requirements.txt
 The `data/` folder contains the complete CuP and CuP+CAF datasets. 
 Other datasets are not included in this repository due to file size limitations.
 
-## Authors
-
+## Contact
+For any questions regarding the code or data, please open an issue or contact:
 - Ziyang Wang (wangzy201221@163.com) 
 - Saisai Yuan (yuansaisai@just.edu.cn)
 - Zhichao Pan (panzhichao@guet.edu.cn)
