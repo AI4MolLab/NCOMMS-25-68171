@@ -79,7 +79,7 @@ The `data/` folder contains the complete CuP and CuP+CAF datasets.
 Other datasets are not included in this repository due to file size limitations.
 
 ## Contact
-For any questions regarding the code or data, please open an issue or contact:
+For any questions regarding the code or data, please contact authors:
 - Ziyang Wang (wangzy201221@163.com) 
 - Saisai Yuan (yuansaisai@just.edu.cn)
 - Zhichao Pan (panzhichao@guet.edu.cn)
