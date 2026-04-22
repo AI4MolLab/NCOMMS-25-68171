@@ -1,5 +1,5 @@
 # NCOMMS-25-68171
-Performance improvement of single-molecule sensors through deep learning-based decoding of tunneling signals enables sub-attomolar sensitivity. (10.1038/s41467-026-72249-3)
+Performance improvement of single-molecule sensors through deep learning-based decoding of tunneling signals enables sub-attomolar sensitivity. DOI: 10.1038/s41467-026-72249-3
 
 ## Overview
 <img width="1544" height="896" alt="image" src="https://github.com/user-attachments/assets/8a6bc0a8-94ec-4105-a649-36fcfef78917" />
